@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #f5d7db;
+    text-decoration: none;
+    font: weight 700px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #f5d7db;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+
+}
+
+.navbar a:hover {
+    color: #f1916d;
+}
+
+.home {
+    height: 100vh;
+    background: #1b3358;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    color: #f5d7db;
+
+
+}
+
+.contact-box {
+    background: #f5d7db;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: #1b3358
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #f1916d;
+    color: #1b3358;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-container {
+    display: flexbox;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.input-container .input-elements {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #1b3358;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #1b3358;
+    outline: none;
+    padding: 10px;
+
+}
+
+button {
+    padding: 12px 35px;
+    background: #f1916d;
+    font-size: 14px;
+    color: #473e66;
+    text-decoration: none;
+    font-weight: 200;
+    box-shadow: 0 0 10px #1b3358;
+    transition: .5s;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+.contact-left h3 {
+    color: #1b3358;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+    color: #1b3358;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+tr td {
+    padding-right: 20px;
+    padding-top: 20px;
+}
