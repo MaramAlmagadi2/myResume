@@ -20,9 +20,9 @@
         <a href="" class="logo"> Maram Almagadi </a>
         <nav class="navbar">
             <a href="index.html"> Home </a>
-            <a href="#1"> Education and Experience</a>
-            <a href="#container2"> Skills and Courses </a>
-            <a href=""> Projects</a>
+            <a href="#edu"> Education and Experience</a>
+            <a href="#skl"> Skills and Courses </a>
+            <a href="#prj"> Projects</a>
             <a href="contact me.html"> Contact </a>
         </nav>
     </header>
@@ -43,9 +43,9 @@
 
             <!-- Using list of icons from boxicons to avoid hastle to saving pictures -->
             <div class="home-li">
-                <a href=""> <i class='bx bxl-linkedin'></i></a>
-                <a href=""> <i class='bx bxl-twitter'></i></a>
-                <a href=""> <i class='bx bx-envelope'></i> </a>
+                <a href="https://www.linkedin.com/in/maram-almagadi-790594277/"> <i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Mxrxmee"> <i class='bx bxl-twitter'></i></a>
+                <a href="mailto:s.engineerMaram@gmail.com"> <i class='bx bx-envelope'></i> </a>
             </div>
 
 
@@ -67,7 +67,7 @@
             <div class="edu">
                 <header class="title">
 
-                    <h2> Education </h2>
+                    <h2 id="edu"> Education </h2>
 
                 </header>
                 <div class="box">
@@ -128,7 +128,7 @@
                 <div class="skill-c">
                     <header class="title">
     
-                        <h2> Skills </h2>
+                        <h2 id="skl"> Skills </h2>
     
                     </header>
                     <div class="subject"> <i class='bx bxs-star'></i> HTML </div>
@@ -182,7 +182,7 @@
 
         <div class="project-title">
             <span> Lets see some of my work </span>
-            <h2>My projects</h2>
+            <h2 id="prj">My projects</h2>
           </div>
 
           <!--Project divs-->
