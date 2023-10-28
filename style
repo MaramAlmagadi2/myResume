@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #f5d7db;
+    text-decoration: none;
+    font: weight 700px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #f5d7db;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+
+}
+
+.navbar a:hover {
+    color: #f1916d;
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(-90deg, #1b3358 65%, #bd83b8 35%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: #1b3358;
+    border-radius: 50%;
+    border: 25px solid #bd83b8;
+    outline: 25px solid #1b3358
+}
+
+.home-image img {
+    position: relative;
+    max-width: 380px;
+    border-radius: 100%;
+    bottom: 22px;
+
+}
+
+.home-content {
+    max-width: 600px;
+    color: #f5d7db;
+    text-align: right;
+
+}
+
+.home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+
+}
+
+.home-content h3 {
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: .5px white;
+    background-image: linear-gradient(#f5d7db, #f5d7db);
+    background-repeat: no-repeat;
+    background-position: -300px 0;
+    -webkit-background-clip: text;
+    animation: animateText 6s linear infinite;
+}
+
+@keyframes animateText {
+
+    0%,
+    95%,
+    100% {
+        background-position: -410px 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0 0;
+    }
+}
+
+.home-content p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home-li {
+    margin: 25px 0 40px;
+}
+
+.home-li a {
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #f5d7db;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #f5d7db;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+    margin-top: 12px;
+}
+
+.home-li a:hover {
+    background: #f1916d;
+    color: #473e66;
+    border-color: #f5d7db;
+    box-shadow: 0 0 10px #f5d7db;
+}
+
+.button {
+    padding: 12px 35px;
+    background: #f5d7db;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #473e66;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #bd83b8;
+    transition: .5s;
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
+
+.Education {
+    height: 100vh;
+    background: #bd83b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.container {
+    width: 100%;
+    padding: 35px 10%;
+}
+
+.edu {
+    width: 50%;
+    float: left;
+
+
+}
+
+.exp {
+    width: 50%;
+    float: right;
+  
+}
+
+.Skills {
+    height: 100vh;
+    background: #473e66;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Projects {
+    height: 200vh;
+    background: #bd83b8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    flex-direction: column;
+  
+
+}
+
+
+.skills-c{
+    width: 50%;
+    float: left;
+}
+.course-c{
+    width: 50%;
+    float: right;
+
+}
+
+.project-heading{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.project-heading h2{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.proj1-container {
+    width: 50%;
+    float: left;
+}
+
+.proj2-container{
+    width: 50%;
+    float: ri;
+}
+
+.proj1-container img{
+
+    width: 30;
+    height: 30;
+    flex: auto;
+}
+
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+    color: #000;
+  }
