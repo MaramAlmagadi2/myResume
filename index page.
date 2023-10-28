@@ -23,13 +23,13 @@
             <a href="#edu"> Education and Experience</a>
             <a href="#skl"> Skills and Courses </a>
             <a href="#prj"> Projects</a>
-            <a href="contact me.html"> Contact </a>
+            <a href="contactme.html"> Contact </a>
         </nav>
     </header>
 
     <section class="home">
         <div class="home-image">
-            <img src="my pic.jpeg" alt="my personal picture">
+            <img src="my_pic.jpeg" alt="my personal picture">
 
         </div>
 
@@ -52,7 +52,7 @@
 
             <!-- Creating a button that downloads file onto client's side.:D -->
 
-            <a href="UpdatedRESUME (1).pdf" download="UpdatedRESUME" class="button"> View full CV</a>
+            <a href="UpdatedRESUME(1).pdf" download="UpdatedRESUME" class="button"> View full CV</a>
 
 
         </div>
@@ -86,6 +86,7 @@
                     <p> Majored in software Engineering from the university of Jeddah</p>
                 </div>
             </div>
+        </div>
 
 
 
@@ -122,7 +123,6 @@
     </section>
 
     <section class="Skills">
-            <div id="1"> </div>
             <div class="container">
     
                 <div class="skill-c">
@@ -172,6 +172,7 @@
                     <div class="course1"><i class='bx bx-certification'></i> Python for data science , IBM</div>
                     <div class="course1"><i class='bx bx-certification'></i> Project Management , google </div>
                 </div>
+                </div>
     
     
  
@@ -191,10 +192,10 @@
             <h3> Feel Well Application </h3>
             <p>I developed an android application and linked it with firebase. Here are some screenshots of the product.</p>
 
-            <div class="img1"><img src="FW 1.jpeg" alt="homepage of feelWell app" height="300 " width="300">
+            <div class="img1"><img src="FW1.jpeg" alt="homepage of feelWell app" height="300" width="300">
             </div>
            
-            <div class="img2">  <img src="FW 3.jpeg" alt="logIn of feelWell app" height="300" width="300">
+            <div class="img2">  <img src="FW3.jpeg" alt="logIn of feelWell app" height="300" width="300">
             </div>
           </div>
 
@@ -203,10 +204,10 @@
             <p>I developed an program that calculates carbon emission and helps save the enviroment. It was a backend <br>
             project. Below are some of the codes.</p>
 
-            <div class="img1"><img src="project2.png" alt="ecoAware1" height="300 " width="300">
+            <div class="img3"><img src="project2.png" alt="ecoAware1" height="300" width="300">
             </div>
            
-            <div class="img2">  <img src="proj2.1.png" alt="Ecoaware2" height="300" width="300">
+            <div class="img4">  <img src="proj2.1.png" alt="Ecoaware2" height="300" width="300">
             </div>
           </div>
           <footer>
@@ -214,6 +215,10 @@
             </small>
           </footer>
     </section>
+
+    
+</body>
+</html>
 
     
 </body>
